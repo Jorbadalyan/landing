@@ -1,0 +1,73 @@
+@media screen and (max-width: 1500px){
+    .portfolio_items{
+        grid-template-columns: repeat(auto-fill,minmax(310px,1fr));
+    }
+}
+@media screen and (max-width: 1500px){
+    .portfolio_items_item{
+      width: 310px;
+      height: 220px;  
+    }
+    .portfolio_items{
+        justify-items: center;
+        align-items: center;
+        grid-template-rows: repeat(5,1fr);
+    }
+}
+@media screen and (max-width: 850px){
+    body{
+        overflow-x: hidden;
+    }
+.icon_wrap {
+    display: block !important;
+}
+.work_steps_wrapper{
+    overflow-x: hidden;
+}
+.header_ul{
+    display: none;
+}
+.purple{
+    min-width: none;
+}
+.green{
+    min-width: none;
+    
+}
+.orange{
+    min-width: none;
+    
+}
+}
+@media screen and (max-width: 1180px){
+    .works_block_item_rotate{
+        position: inherit;
+        width: 100%;
+
+    }
+    .rotate_1{
+        top: 0;
+        left: 0;
+        border-bottom:5px solid #FC5F45;
+    }
+    .rotate_2{
+        top: 0;
+        left: 0;
+        border-bottom:5px solid #38C695;
+    }
+    .rotate_3{
+        top: 0;
+        left: 0;
+        border-bottom:5px solid #B27CF5;
+    }
+    .rotate_4{
+        top: 0;
+        left: 0;
+        border-bottom:5px solid #FEB960;
+    }
+    .works_block_item{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+}
